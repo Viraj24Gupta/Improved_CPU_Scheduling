@@ -30,7 +30,7 @@ algorithm will have less waiting time, less turnaround time and less number of
 context switches.
 </h5>
 
-#Explanation
+# Explanation
 <h5>The proposed algorithm is called Improved Mean Round Robin with
 Shortest Job First (IMRRSJF) algorithm. The basic idea and difference
 between this improved algorithm and existing algorithms is that it first
