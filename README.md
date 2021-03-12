@@ -14,7 +14,7 @@ becoming enabled until it is finished in case of batch activity, or until the
 system responds and hands the first output to the user in case of interactive
 activity);or maximizing fairness (equal CPU time to each process, or more
 generally appropriate times according to the priority and workload of each
-process). . In practice, these goals often conflict (e.g. throughput versus
+process). In practice, these goals often conflict (e.g. throughput versus
 latency), thus a scheduler will implement a suitable compromise.
 
 A process is an instance of a program running in a computer. It includes the
