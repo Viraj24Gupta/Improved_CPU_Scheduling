@@ -5,6 +5,7 @@ means is assigned to resources that complete the work. The work may be
 virtual computation elements such as threads, processes or data flows, which
 are in turn scheduled onto hardware resources such as processors, network
 links or expansion cards.
+  
 A scheduler may aim at one or more of many goals, for example: maximizing
 throughput (the total amount of work completed per time unit); minimizing
 wait time (time from work becoming enabled until the first point it begins
@@ -15,6 +16,7 @@ activity);or maximizing fairness (equal CPU time to each process, or more
 generally appropriate times according to the priority and workload of each
 process). In practice, these goals often conflict (e.g. throughput versus
 latency), thus a scheduler will implement a suitable compromise.
+
 A process is an instance of a program running in a computer. It includes the
 current values of the program counters, all the registers, and also the
 variables. The processes waiting to be assigned to a processor are put in a
